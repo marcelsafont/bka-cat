@@ -1,0 +1,92 @@
+.description-image {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #707070;
+}
+
+.article-teaser {
+  margin: 15px 0;
+  padding: 15px 0 50px 0;
+}
+
+.article-teaser h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.article-teaser .date {
+  padding-bottom: 15px;
+  color: #707070;
+}
+
+.article-teaser .summary p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.article-teaser .arrow-link {
+  margin-top: 20px;
+}
+
+.llista-noticies .basic-header {
+  padding-top: 3rem;
+}
+
+.llista-noticies .view-lista-noticies > div:nth-child(even) {
+  background-color: #F2F6F5;
+}
+
+.article-detail .date {
+  padding-bottom: 20px;
+  color: #707070;
+  margin-top: -10px;
+}
+
+.pager {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.pager ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pager ul li {
+  margin-right: 10px;
+}
+
+.pager ul li a {
+  color: #FF4040;
+}
+
+.pager ul li.is-active a {
+  color: #2E2E2E;
+}
+
+.pager ul li.is-active a:hover {
+  color: #FF4040;
+}
+
+.pager ul li:hover {
+  color: #FF4040;
+  text-decoration: underline;
+  color: #FF4040;
+}
+
+.pager ul .pager__item--last,
+.pager ul .pager__item--next,
+.pager ul .pager__item--previous,
+.pager ul .pager__item--first {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .article-teaser .col-text {
+    margin-top: 15px;
+  }
+}
+
+/*# sourceMappingURL=news.css.map */

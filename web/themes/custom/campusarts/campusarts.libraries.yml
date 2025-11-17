@@ -1,0 +1,22 @@
+global-styling:
+  css:
+    theme:
+      css/reset.css: {}
+      css/selectric.css: {}
+      css/grid.css: {}
+      css/typography.css: {}
+      css/global.css: {}
+      css/components.css: {}
+      css/media-queries.css: {}
+      js/assets/owl.carousel.min.css: {}
+      css/news.css: {}
+      css/admin.css: {}
+      css/calendari.css: {}
+  js:
+    js/owl.carousel.min.js: {}
+    js/jquery.selectric.min.js: {}
+    js/tooltip.js: {}
+    js/popover.js: {}
+    js/transition.js: {}
+    js/calendar-popover.js: {}
+    js/functions.js: {}

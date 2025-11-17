@@ -1,0 +1,179 @@
+.paragraph-calendari{
+  padding:80px 0;
+}
+
+.popover-content {
+  padding: 9px 14px;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+.calendar-popover div.close-pop {
+  width: 100%;
+  height: 20px;
+}
+
+.calendar-popover div.close-pop a{
+  cursor: pointer;
+    font-size: 20px;
+    float: right;
+}
+
+.calendar-popover a.title{
+  display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.popover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1.42857;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  white-space: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  font-size: 14px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.paragraph-calendari h2{
+  font-size: 40px;
+    font-family: "HN Black";
+    padding-bottom: 2rem;
+}
+
+.paragraph-calendari .pager__item{
+  display:block!important;
+}
+
+.paragraph-calendari .pager__item.pager__item--current{
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 10px;
+}
+
+.paragraph-calendari .pager__item.pager__item--previous a, 
+.paragraph-calendari .pager__item.pager__item--next a{
+  width:30px!important;
+  height:40px;
+  text-indent: -3000px;
+  overflow: hidden;
+  background:url('../assets/arrow-left-black.svg') no-repeat center;
+  background-size: 30px;
+  display:block;
+}
+
+.paragraph-calendari .pager__item.pager__item--next a{
+  transform: rotate(180deg);
+}
+
+.paragraph-calendari .calendar-calendar .month-view table tbody tr td .inner .month.day {
+  width: 100%;
+  position: relative;
+}
+
+.paragraph-calendari .event-list a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  background-color: #0000;
+  transform: translate(-50%, -50%);
+}
+
+.paragraph-calendari nav.pager{
+  padding-bottom:40px;
+}
+
+.paragraph-calendari nav.pager > ul{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph-calendari h2{
+  padding-bottom:30px;
+}
+
+.paragraph-calendari table *{
+  font-size:20px;
+}
+.paragraph-calendari table tr {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  height:50px;
+}
+
+.paragraph-calendari table tr td{
+  border:0;
+  height:50px!important;
+}
+
+.paragraph-calendari table tr.single-day{
+  display:none!important;
+}
+
+.paragraph-calendari .calendar-calendar .inner{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height:inherit;
+  height:inherit!important;
+}
+.paragraph-calendari .calendar-calendar .month-view .full td.date-box.today{
+  border:0;
+}
+
+.paragraph-calendari .calendar-calendar .month-view .full td.date-box.today .inner span{
+  border-radius:50%;
+  background-color:#000;
+  padding:10px;
+  color:#fff;
+}
+
+.paragraph-calendari .calendar-calendar .month-view table tbody tr td .inner .month.day .featured{
+  font-family: "HN Black"!important;
+  color:#ff4040;
+}
+
+.calendar-calendar td.empty{
+  color:#777;
+}
+
+.paragraph-calendari .calendar-calendar th.days{
+  border: none;
+  background-color: white;
+  color:#a3d4bb;
+  font-family: "HN Black"!important;
+  font-size: 20px;
+  vertical-align: middle;
+}

@@ -98,3 +98,4 @@ nbproject/
 
 # Keep the base config.yaml file
 !/.ddev/config.yaml
+*.sql

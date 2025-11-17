@@ -1,0 +1,20 @@
+core: 8.x
+type: theme
+base theme: false
+
+name: 'Campus Arts'
+description: 'Tema Campus de les Arts'
+core_version_requirement: ^8 || ^9
+regions:
+  navigation: 'Navigation'
+  language: 'Language Selector'
+  header: 'Top Bar'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  footer_col1: 'Footer first column'
+  footer_col2: 'Footer second column'
+  menu_footer: 'Footer menu'
+
+libraries:
+  - 'campusarts/global-styling'

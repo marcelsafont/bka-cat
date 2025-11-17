@@ -4,6 +4,23 @@
 
 This repository contains a **Drupal 11** project configured for **local development using DDEV**, with custom commands to simplify deployment on **shared hosting environments** that do **not support Composer**.
 
+modules
+"drupal/dropdown_language": "^2.0",
+"drupal/easy_breadcrumb": "^2.0",
+"drupal/entity_reference_revisions": "^1.12",
+"drupal/eva": "3.1",
+"drupal/linkit": "^6.0",
+"drupal/metatag": "1.0",
+"drupal/paragraphs": "1.15",
+"drupal/paragraphs_asymmetric_translation_widgets": "^1.4",
+"drupal/pathauto": "1.12",
+"drupal/rebuild_cache_access": "1.7",
+"drupal/token": "^1.16",
+"drupal/twig_field_value": "^2.0",
+"drupal/twig_tweak": "^2.0",
+"drush/drush": "11"
+drupal/captcha": "2.0",
+
 ---
 
 ## 🛠️ Local Development with DDEV
