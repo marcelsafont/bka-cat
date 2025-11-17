@@ -4,7 +4,7 @@ base theme: false
 
 name: 'Campus Arts'
 description: 'Tema Campus de les Arts'
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10
 regions:
   navigation: 'Navigation'
   language: 'Language Selector'
