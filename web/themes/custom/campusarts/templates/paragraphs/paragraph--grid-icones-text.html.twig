@@ -40,37 +40,26 @@
 #}
 {%
   set classes = [
-    'image-textblock-section',
-    'bg-palegreen',
+    'paragraph',
+    'paragraph-grid-icones',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
 {% block paragraph %}
-<div{{ attributes.addClass(classes) }}>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2>{{ content.field_pr_text_simple|field_value }}</h2>
-
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="textblock">
-          {{ content.field_pr_text_llarg|field_value }}
-        </div>
-        <div class="arrow-link">
-          {{ content.field_pr_link|field_value }}
-        </div>
-      </div>
-      <div class="col-md-9">
-        <div class="image-textblock-section--img">
-          {{ content.field_pr_imatge_simple|field_value }}
-        </div>
-      </div>
-    </div>
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+       <div class="container"> 
+          <div class="row">
+            <div class="col">
+              <h2>{{ content.field_pr_text_simple|field_value }}</h2>
+            </div>
+          </div>
+          <div class="row">
+            {{ content.field_items|field_value }}
+          </div>
+       </div>  
+    {% endblock %}
   </div>
-</div>
 {% endblock paragraph %}

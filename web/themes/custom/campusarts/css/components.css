@@ -109,15 +109,14 @@
   z-index: 40;
   padding: 2.5rem;
   background: #fff;
-  -webkit-box-shadow: 20px 20px rgba(46, 46, 46, 0.75);
-          box-shadow: 20px 20px rgba(46, 46, 46, 0.75);
+  box-shadow: 20px 20px rgba(146, 146, 146, 0.75);
   border: 1px solid #2E2E2E;
 }
 
 .home-top-slider .slide .text-box p,
 .home-top-slider .slide .text-box strong {
   display: inline;
-  line-height: 1.75;
+  line-height: 1.5;
   font-size: 18px;
 }
 
@@ -185,8 +184,7 @@
 }
 
 .image-textblock-section h2 {
-  font-size: 40px;
-  font-family: "HN Black";
+  font-size: 30px;
   padding-bottom: 2rem;
   margin-top: 3.5rem;
 }
@@ -199,12 +197,19 @@
   position: static;
 }
 
+.image-textblock-section .arrow-link{
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
 .image-textblock-section .textblock {
   position: absolute;
   background: #fff;
   width: 50%;
   z-index: 500;
   padding: 2rem;
+  top:70px;
   border: 1px solid #2e2e2e;
   -webkit-box-shadow: 15px 15px #2e2e2e;
           box-shadow: 15px 15px #2e2e2e;
@@ -302,11 +307,6 @@
 
 .pre-footer-narrative p strong {
   font-family: "HN Black";
-}
-
-.pre-footer-narrative--img {
-  position: relative;
-  margin-top: -12.5rem;
 }
 
 .pre-footer-narrative--img img {
@@ -441,6 +441,10 @@
 
 .text-simple.bg-palest + div, .two-col-img-text.bg-palest + div {
   padding-top: 2.5rem;
+}
+
+.paragraph-grid-icones{
+  padding:5rem 0;
 }
 
 @media screen and (min-width: 992px) {
