@@ -107,16 +107,16 @@
   margin-top: 5rem;
   position: relative;
   z-index: 40;
-  padding: 2.5rem;
+  padding: 1.5rem 2rem;
   background: #fff;
-  box-shadow: 20px 20px rgba(146, 146, 146, 0.75);
+  box-shadow: 20px 20px #185486;
   border: 1px solid #2E2E2E;
 }
 
 .home-top-slider .slide .text-box p,
 .home-top-slider .slide .text-box strong {
   display: inline;
-  line-height: 1.5;
+  line-height: 1.1;
   font-size: 18px;
 }
 
@@ -180,39 +180,41 @@
 }
 
 .image-textblock-section {
-  padding: 8.5rem 0;
+  padding: 4rem 0;
 }
 
 .image-textblock-section h2 {
-  font-size: 30px;
+  font-size: 40px;
   padding-bottom: 2rem;
-  margin-top: 3.5rem;
+  margin-top: 0;
+  font-weight:600;
+  line-height:1.1;
 }
 
 .image-textblock-section .row {
   position: relative;
 }
 
-.image-textblock-section .col-md-3 {
+.image-textblock-section .col-md-5 {
   position: static;
 }
 
 .image-textblock-section .arrow-link{
   position:absolute;
-  bottom:0;
+  bottom:20px;
   left:0;
 }
 
 .image-textblock-section .textblock {
   position: absolute;
   background: #fff;
-  width: 50%;
+  width: 46%;
   z-index: 500;
   padding: 2rem;
   top:70px;
-  border: 1px solid #2e2e2e;
-  -webkit-box-shadow: 15px 15px #2e2e2e;
-          box-shadow: 15px 15px #2e2e2e;
+  border: 1px solid #185486;
+  -webkit-box-shadow: 15px 15px #185486;
+          box-shadow: 15px 15px #185486;
 }
 
 .image-textblock-section .textblock p {
@@ -246,7 +248,7 @@
 
 .statistics-section h2 {
   font-size: 40px;
-  font-family: "HN Black";
+  font-family: "Inter";
   padding-bottom: 2rem;
 }
 
@@ -274,7 +276,7 @@
 
 .statistics-section .row.numbers-row .col-md-6 .number h4 {
   color: #a3d4bb;
-  font-family: "HN Black";
+  font-family: "Inter";
   font-size: 110px;
   letter-spacing: -4.05px;
 }
@@ -286,7 +288,7 @@
 }
 
 .statistics-section .row.numbers-row .col-md-6 .summary p {
-  font-family: "HN Black";
+  font-family: "Inter";
 }
 
 .pre-footer-narrative {
@@ -295,7 +297,7 @@
 
 .pre-footer-narrative h2 {
   font-size: 40px;
-  font-family: "HN Black";
+  font-family: "Inter";
   padding-bottom: 2rem;
 }
 
@@ -306,7 +308,7 @@
 }
 
 .pre-footer-narrative p strong {
-  font-family: "HN Black";
+  font-family: "Inter";
 }
 
 .pre-footer-narrative--img img {
@@ -320,8 +322,8 @@
   position: absolute;
   height: 285px;
   width: 285px;
-  right: -45px;
-  bottom: -45px;
+  right: -75px;
+  bottom: 100px;
 }
 
 .basic-header {
@@ -331,7 +333,7 @@
 
 .basic-header h1 {
   margin-bottom: 2rem;
-  font-family: "HN Black";
+  font-family: "Inter";
   font-size: 40px;
 }
 
@@ -368,7 +370,7 @@
 
 .text-simple.bordered h2 {
   font-size: 24px;
-  font-family: "HN Black";
+  font-family: "Inter";
   padding-bottom: 20px;
 }
 
@@ -382,7 +384,7 @@
 
 .text-simple.heading h2 {
   font-size: 24px;
-  font-family: "HN Black";
+  font-family: "Inter";
   margin-bottom: 2rem;
   margin-left: -3.5rem;
   position: relative;
@@ -445,6 +447,40 @@
 
 .paragraph-grid-icones{
   padding:5rem 0;
+}
+
+.grid-icones-text{
+  margin-top:2rem;
+}
+
+.paragraph-logos{
+  padding:4rem 0;
+}
+
+.paragraph-logo{
+  width:25%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph-logos .grid-logos{
+  display:flex;
+  align-items: center;
+  gap:50px;
+}
+
+.paragraph-logos .grid-logos img{
+  max-height:130px;
+  max-width:auto!important;
+}
+
+.paragraph-logos h2, .paragraph-grid-icones h2{
+  padding-bottom:1rem;
+}
+
+.pre-footer-narrative .flex-row-reverse > div:first-child{
+  padding-left:50px!important;
 }
 
 @media screen and (min-width: 992px) {

@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="285" height="288" viewBox="0 0 285 288">
-  <defs>
-    <clipPath id="clip-path">
-      <rect id="Rectángulo_317" data-name="Rectángulo 317" width="285" height="288" transform="translate(0 0)" fill="#fff" stroke="#a3d4bb" stroke-width="1"/>
-    </clipPath>
-  </defs>
-  <g id="arch_2" transform="translate(0 0)" clip-path="url(#clip-path)">
-    <path id="Trazado_78" data-name="Trazado 78" d="M275.073,550.145c151.918,0,275.073-123.154,275.073-275.073S426.991,0,275.073,0,0,123.154,0,275.073,123.154,550.145,275.073,550.145Z" transform="translate(-275.012 -276.407)" fill="none" stroke="#a3d4bb" stroke-width="5"/>
-  </g>
+<svg width="223" height="221" viewBox="0 0 223 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_9_1393" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="223" height="221">
+<path d="M222.5 0.500031V220.5H0.5V0.500031H222.5Z" fill="white" stroke="white"/>
+</mask>
+<g mask="url(#mask0_9_1393)">
+<path d="M0.33195 11.2202C42.8709 11.2202 84.4546 23.5809 119.825 46.7392C155.194 69.8975 182.762 102.813 199.041 141.324C215.32 179.835 219.579 222.211 211.28 263.094C202.981 303.977 182.497 341.53 152.417 371.005C122.338 400.48 84.0138 420.553 42.2922 428.685C0.570536 436.817 -42.6751 432.643 -81.976 416.691C-121.277 400.74 -154.868 373.726 -178.501 339.068C-202.135 304.409 -214.749 263.661 -214.749 221.977C-214.749 166.081 -192.089 112.474 -151.753 72.9495C-111.418 33.4249 -56.7111 11.2202 0.33195 11.2202Z" stroke="#185486" stroke-width="5"/>
+</g>
 </svg>

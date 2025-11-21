@@ -41,31 +41,25 @@
 {%
   set classes = [
     'paragraph',
-    'pre-footer-narrative', 
-    'bg-palest',
+    'paragraph-logos',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
     not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
 {% block paragraph %}
-<div{{ attributes.addClass(classes) }}>
-  <div class="container">
-    <div class="row align-items-center {% if paragraph.field_imatge_esquerra.value == "1" %}flex-row-reverse {% endif %}">
-      <div class="col-md-8">
-        <h2>{{ content.field_pr_text_simple|field_value }}</h2>
-        {{ content.field_pr_text_llarg|field_value }}
-        <div class="arrow-link">
-          {{ content.field_pr_link|field_value }}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>{{ content.field_pr_text_simple|field_value }}</h2>
+                </div>
+            </div>
+            <div class="grid-logos">
+                {{ content.field_logos|field_value }}
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="pre-footer-narrative--img">
-          {{ content.field_pr_imatge_simple|field_value }}
-        </div>
-      </div>
-    </div>
+    {% endblock %}
   </div>
-</div>
-
 {% endblock paragraph %}

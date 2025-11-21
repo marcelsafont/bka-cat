@@ -12,12 +12,9 @@ img {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.bg-palegreen {
-  background-color: #ceedde;
-}
 
 .bg-palest {
-  background-color: #f2f6f5;
+  background-color: rgba(24, 84, 134, 0.1);
 }
 
 .visually-hidden {
@@ -25,7 +22,7 @@ img {
 }
 
 .arrow-link a {
-  color: blue;
+  color: #185486;
   font-size: 18px;
   background-image: url(../assets/link_arrow.svg);
   background-size: 20px;
@@ -48,7 +45,7 @@ a:hover {
 }
 
 p > strong > a {
-  font-family: "HN Black";
+  font-family: "Inter";
 }
 
 .bordered-text {
@@ -67,6 +64,14 @@ p > strong > a {
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 1.5rem;
+}
+
+h2{
+  font-weight:bold;
+}
+
+strong, b{
+  font-weight:700;
 }
 
 .content p:last-of-type {
@@ -298,7 +303,7 @@ p > strong > a {
 
 footer {
   padding: 2rem 0;
-  background-color: #2e2e2e;
+  background-color: #185486;
   color: #fff;
 }
 

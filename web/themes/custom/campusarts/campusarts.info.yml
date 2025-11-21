@@ -1,9 +1,8 @@
 core: 8.x
 type: theme
-base theme: false
-
-name: 'Campus Arts'
-description: 'Tema Campus de les Arts'
+base theme: stable9
+name: 'BKA'
+description: 'Tema BKA'
 core_version_requirement: ^9 || ^10
 regions:
   navigation: 'Navigation'
