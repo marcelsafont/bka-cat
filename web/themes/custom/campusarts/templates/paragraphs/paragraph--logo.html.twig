@@ -50,7 +50,9 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
+      <a href="{{ content.field_url|render|striptags}}">
         {{ content.field_pr_imatge_simple|field_value }}
+      </a>
     {% endblock %}
   </div>
 {% endblock paragraph %}

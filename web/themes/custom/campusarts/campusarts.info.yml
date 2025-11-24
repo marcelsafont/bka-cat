@@ -1,19 +1,18 @@
 core: 8.x
 type: theme
 base theme: stable9
-name: 'BKA'
-description: 'Tema BKA'
+name: "BKA"
+description: "Tema BKA"
 core_version_requirement: ^9 || ^10
 regions:
-  navigation: 'Navigation'
-  language: 'Language Selector'
-  header: 'Top Bar'
-  breadcrumb: 'Breadcrumb'
-  highlighted: 'Highlighted'
-  content: 'Content'
-  footer_col1: 'Footer first column'
-  footer_col2: 'Footer second column'
-  menu_footer: 'Footer menu'
+  navigation: "Navigation"
+  language: "Language Selector"
+  header: "Top Bar"
+  breadcrumb: "Breadcrumb"
+  highlighted: "Highlighted"
+  content: "Content"
+  footer_first_column: "Footer first column"
+  menu_legal: "Menu legal"
 
 libraries:
-  - 'campusarts/global-styling'
+  - "campusarts/global-styling"

@@ -12,7 +12,6 @@ img {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 .bg-palest {
   background-color: rgba(24, 84, 134, 0.1);
 }
@@ -66,12 +65,13 @@ p > strong > a {
   margin-bottom: 1.5rem;
 }
 
-h2{
-  font-weight:bold;
+h2 {
+  font-weight: bold;
 }
 
-strong, b{
-  font-weight:700;
+strong,
+b {
+  font-weight: 700;
 }
 
 .content p:last-of-type {
@@ -82,7 +82,7 @@ strong, b{
   padding: 2rem;
   border: 1px solid #2e2e2e;
   -webkit-box-shadow: 20px 20px #2e2e2e;
-          box-shadow: 20px 20px #2e2e2e;
+  box-shadow: 20px 20px #2e2e2e;
 }
 
 .content ol,
@@ -95,8 +95,8 @@ strong, b{
   max-width: 1170px;
 }
 
-#footer a {
-  color: #fff !important;
+#footer .email-link a {
+  color: #fff;
 }
 
 .nav {
@@ -150,7 +150,7 @@ strong, b{
 .nav ul:not(.contextual-links) li.dd:hover {
   border-top: 1px solid #2e2e2e;
   -webkit-box-shadow: 8px 6px #2e2e2e;
-          box-shadow: 8px 6px #2e2e2e;
+  box-shadow: 8px 6px #2e2e2e;
 }
 
 .nav ul:not(.contextual-links) li.dd:hover ul.dropdown {
@@ -163,7 +163,7 @@ strong, b{
   top: 28px;
   z-index: 90;
   -webkit-box-shadow: 10px 10px #2e2e2e;
-          box-shadow: 10px 10px #2e2e2e;
+  box-shadow: 10px 10px #2e2e2e;
 }
 
 .nav ul:not(.contextual-links) li.dd:hover ul.dropdown li {
@@ -310,8 +310,8 @@ footer {
 footer .row:not(:last-of-type) {
   padding-bottom: 2.5rem;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 footer .footer-logo {
@@ -330,27 +330,18 @@ footer a {
   line-height: 1.4;
 }
 
-footer .contact-info {
-  padding-top: 3rem;
+footer .col-footer-first .email-link {
+  margin-top: 10px;
+  padding-left: 40px;
+  background: url("../assets/mail-icon.svg") no-repeat left center;
 }
 
-footer .contact-info div {
-  padding-left: 15px;
-  background-repeat: no-repeat;
-  background-size: 10px;
-  background-position: 0 50%;
+.menu-legal {
+  margin-top: 20px;
 }
 
-footer .contact-info .mail-link {
-  background-image: url(../assets/ico_mail.svg);
-}
-
-footer .contact-info .tel-link {
-  background-image: url(../assets/ico_phone.svg);
-}
-
-footer .contact-info .tweet-link {
-  background-image: url(../assets/ico_twitter.png);
+.menu-legal * {
+  font-size: 16px;
 }
 
 footer .ub-logo {
@@ -377,9 +368,12 @@ footer .footer-links li:first-of-type {
 
 /*# sourceMappingURL=global.css.map */
 
-
 /* Selector d'idiomes: surten en minúscules. JG DW_UB [2023-05-10] */
-.nav--lang-nav .selectric .label, 
+.nav--lang-nav .selectric .label,
 .nav--lang-nav .selectric-items {
-	text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 20px;
 }
