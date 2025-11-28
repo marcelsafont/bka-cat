@@ -30,54 +30,7 @@
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token|raw }}">
  
-<!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMM22P8GWL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-TMM22P8GWL');
-</script> Canvi a GA4: 2025-05-08-->
-
-<!-- Modificat CookieConsent 21/05/2024): -->
-<!-- Google Consent Mode -->
-<script data-cookieconsent="ignore">
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		dataLayer.push(arguments)
-	}
-	gtag("consent", "default", {
-		ad_personalization: "denied",
-		ad_storage: "denied",
-		ad_user_data: "denied",
-		analytics_storage: "denied",
-		functionality_storage: "denied",
-		personalization_storage: "denied",
-		security_storage: "granted",
-		wait_for_update: 500
-	});
-	gtag("set", "ads_data_redaction", true);
-</script>
-<!-- End Google Consent Mode-->
-
-<!-- Google Tag Manager -->
-<script data-cookieconsent="ignore">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MLPG24R');</script>
-<!-- End Google Tag Manager -->
-
-<!-- Cookiebot /campusdelesarts.org: -->
-<script 
-	id="Cookiebot" 
-	src="https://consent.cookiebot.com/uc.js" 
-	data-cbid="06d8002d-d7d5-4e0a-a450-b63ebf3c7186" 
-	data-blockingmode="auto" 
-	type="text/javascript">
-</script>
-<!-- End Cookiebot /campusdelesarts.org. -->
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="af4d455e-df98-4348-983d-fd0df927fed5" data-blockingmode="auto" type="text/javascript"></script>
 
    <js-placeholder token="{{ placeholder_token|raw }}">
 
@@ -96,6 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="#main-content" class="visually-hidden focusable">
       {{ 'Skip to main content'|t }}
     </a>
+    <script id="CookieDeclaration" src="https://consent.cookiebot.com/af4d455e-df98-4348-983d-fd0df927fed5/cd.js" type="text/javascript" async></script>
     {{ page_top }}
     {{ page }}
     {{ page_bottom }}

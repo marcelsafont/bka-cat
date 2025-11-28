@@ -344,6 +344,15 @@ footer .col-footer-first .email-link {
   font-size: 16px;
 }
 
+.menu-legal a{
+  color:#fff;
+}
+
+.menu-legal ul:not(.contextual-links){
+  display:flex;
+gap: 10px;
+}
+
 footer .ub-logo {
   max-width: 265px;
 }

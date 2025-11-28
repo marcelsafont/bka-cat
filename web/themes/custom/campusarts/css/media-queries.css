@@ -300,8 +300,8 @@
     padding: 1rem;
     background: #fff;
     border: 1px solid #2e2e2e;
-    -webkit-box-shadow: 10px 12px rgba(46, 46, 46, 0.75);
-    box-shadow: 10px 12px rgba(46, 46, 46, 0.75);
+    -webkit-box-shadow: 10px 12px #185486;
+    box-shadow: 10px 12px #185486;
   }
   .home-top-slider .slide .text-box p,
   .home-top-slider .slide .text-box strong {
@@ -346,8 +346,8 @@
   }
   .image-textblock-section .textblock {
     padding: 1rem 1.5rem;
-    -webkit-box-shadow: 8px 8px #2e2e2e;
-    box-shadow: 8px 8px #2e2e2e;
+    -webkit-box-shadow: 8px 8px #185486;
+    box-shadow: 8px 8px #185486;
     position: relative;
     width: 100%;
   }

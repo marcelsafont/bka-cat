@@ -50,13 +50,14 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-        <div class="row grid-icones-text">
-            <div class="col-md-3 col-icona">
+        <div class="grid-icones-text">
+            <div class="col-icona">
                 {{ content.field_icona|field_value}}
             </div>
-            <div class="col-md-9">
+            <div class="col-text">
             {{ content.field_pr_text_llarg|field_value}}
             </div>
+            
         </div>
       
     {% endblock %}
