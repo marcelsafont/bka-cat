@@ -1,0 +1,22 @@
+uuid: 36b685bf-346a-458b-a680-3ffd39e2de60
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.titol_text_imatge_fons
+id: paragraph.titol_text_imatge_fons.status
+field_name: status
+entity_type: paragraph
+bundle: titol_text_imatge_fons
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

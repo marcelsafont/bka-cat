@@ -1,0 +1,46 @@
+uuid: 983dbcfb-bad0-4afa-a2fd-a33c7e1f2e33
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.titol_blocks_text.field_pr_items
+    - field.field.paragraph.titol_blocks_text.field_pr_text_simple
+    - field.field.paragraph.titol_blocks_text.field_tc_boolean
+    - paragraphs.paragraphs_type.titol_blocks_text
+  module:
+    - paragraphs_asymmetric_translation_widgets
+id: paragraph.titol_blocks_text.default
+targetEntityType: paragraph
+bundle: titol_blocks_text
+mode: default
+content:
+  field_pr_items:
+    type: paragraphs_classic_asymmetric
+    weight: 2
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+  field_pr_text_simple:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_tc_boolean:
+    type: boolean_checkbox
+    weight: 0
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

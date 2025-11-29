@@ -1,0 +1,25 @@
+uuid: 92d5a50b-1aa7-4d23-82cf-0beee9ed43a7
+langcode: ca
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+id: basic
+label: Basic
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parent:url:path]/[node:title]'
+selection_criteria:
+  86bd6838-6f63-4a62-b8e9-92676d0d9812:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 86bd6838-6f63-4a62-b8e9-92676d0d9812
+    context_mapping:
+      node: node
+    bundles:
+      homepage: homepage
+      llista_noticies: llista_noticies
+      page: page
+selection_logic: and
+weight: 0
+relationships: {  }

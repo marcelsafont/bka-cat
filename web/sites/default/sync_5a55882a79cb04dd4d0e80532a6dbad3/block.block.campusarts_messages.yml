@@ -1,0 +1,22 @@
+uuid: 8f21c176-250f-4211-943b-ba93ba198557
+langcode: ca
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - campusarts
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: campusarts_messages
+theme: campusarts
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: "Missatge d'estat"
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 062b0eb2-22e7-473f-b223-5c16e5e763ef
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_link
+    - paragraphs.paragraphs_type.two_columns_v3
+  module:
+    - link
+id: paragraph.two_columns_v3.field_pr_link
+field_name: field_pr_link
+entity_type: paragraph
+bundle: two_columns_v3
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

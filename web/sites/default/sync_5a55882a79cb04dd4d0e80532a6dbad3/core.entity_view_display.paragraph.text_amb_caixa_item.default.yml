@@ -1,0 +1,22 @@
+uuid: 068722aa-6f1b-447b-ada1-e977ed4805f8
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_amb_caixa_item.field_pr_text_llarg
+    - paragraphs.paragraphs_type.text_amb_caixa_item
+  module:
+    - text
+id: paragraph.text_amb_caixa_item.default
+targetEntityType: paragraph
+bundle: text_amb_caixa_item
+mode: default
+content:
+  field_pr_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

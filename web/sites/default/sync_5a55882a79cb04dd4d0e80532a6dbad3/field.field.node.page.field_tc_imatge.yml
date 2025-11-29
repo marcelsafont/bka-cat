@@ -1,0 +1,28 @@
+uuid: e1ec16e0-6142-48c5-be8d-07b87fa181b1
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tc_imatge
+    - media.type.image
+    - node.type.page
+id: node.page.field_tc_imatge
+field_name: field_tc_imatge
+entity_type: node
+bundle: page
+label: Imatge
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

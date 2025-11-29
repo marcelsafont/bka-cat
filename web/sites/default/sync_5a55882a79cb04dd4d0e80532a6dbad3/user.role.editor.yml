@@ -1,0 +1,37 @@
+uuid: a5db93a3-9183-4a78-a82b-8fec4297e0ca
+langcode: ca
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.homepage
+    - node.type.llista_noticies
+    - node.type.page
+  module:
+    - content_translation
+    - file
+    - media
+    - node
+    - system
+    - toolbar
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create article content'
+  - 'create content translations'
+  - 'create media'
+  - 'delete any article content'
+  - 'delete any media'
+  - 'delete content translations'
+  - 'delete own files'
+  - 'edit any article content'
+  - 'edit any homepage content'
+  - 'edit any llista_noticies content'
+  - 'edit any page content'
+  - 'translate article node'
+  - 'update content translations'
+  - 'view the administration theme'

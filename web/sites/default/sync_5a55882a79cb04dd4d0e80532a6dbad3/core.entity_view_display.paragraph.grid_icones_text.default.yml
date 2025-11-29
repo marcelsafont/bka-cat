@@ -1,0 +1,33 @@
+uuid: 1cea30b9-589d-4654-ab6a-0a35f7376eb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.grid_icones_text.field_items
+    - field.field.paragraph.grid_icones_text.field_pr_text_simple
+    - paragraphs.paragraphs_type.grid_icones_text
+  module:
+    - entity_reference_revisions
+id: paragraph.grid_icones_text.default
+targetEntityType: paragraph
+bundle: grid_icones_text
+mode: default
+content:
+  field_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_pr_text_simple:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 11
+    region: content
+hidden: {  }

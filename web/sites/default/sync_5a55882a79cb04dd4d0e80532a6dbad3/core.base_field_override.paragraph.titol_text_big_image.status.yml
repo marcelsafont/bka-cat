@@ -1,0 +1,22 @@
+uuid: 09660f59-f908-4ae3-b8e1-a17c2066dd76
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.titol_text_big_image
+id: paragraph.titol_text_big_image.status
+field_name: status
+entity_type: paragraph
+bundle: titol_text_big_image
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

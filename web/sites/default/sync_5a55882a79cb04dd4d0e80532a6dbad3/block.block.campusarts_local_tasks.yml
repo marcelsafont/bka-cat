@@ -1,0 +1,22 @@
+uuid: cca55b0a-5e87-42b2-a9df-f0a39ab9c0ad
+langcode: ca
+status: true
+dependencies:
+  theme:
+    - campusarts
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: campusarts_local_tasks
+theme: campusarts
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestanyes
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

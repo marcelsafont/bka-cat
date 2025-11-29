@@ -1,0 +1,20 @@
+uuid: 6d44426b-e03a-492a-9d3a-9b69759b3169
+langcode: ca
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_tc_imatge
+field_name: field_tc_imatge
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

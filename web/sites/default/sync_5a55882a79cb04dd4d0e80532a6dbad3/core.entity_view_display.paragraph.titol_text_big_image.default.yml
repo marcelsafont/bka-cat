@@ -1,0 +1,61 @@
+uuid: 8fcf3920-8ada-400f-ab8f-c5215841ecc9
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.titol_text_big_image.field_pr_imatge_simple
+    - field.field.paragraph.titol_text_big_image.field_pr_link
+    - field.field.paragraph.titol_text_big_image.field_pr_text_llarg
+    - field.field.paragraph.titol_text_big_image.field_pr_text_simple
+    - paragraphs.paragraphs_type.titol_text_big_image
+  module:
+    - field_formatter
+    - link
+    - text
+id: paragraph.titol_text_big_image.default
+targetEntityType: paragraph
+bundle: titol_text_big_image
+mode: default
+content:
+  field_pr_imatge_simple:
+    type: field_formatter_with_inline_settings
+    label: above
+    settings:
+      field_name: field_media_image
+      type: image
+      settings:
+        image_link: ''
+        image_style: image_fons
+      label: hidden
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_pr_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_pr_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_pr_text_simple:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

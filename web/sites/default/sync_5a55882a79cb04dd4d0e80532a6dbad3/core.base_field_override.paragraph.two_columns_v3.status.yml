@@ -1,0 +1,22 @@
+uuid: 81e78ef3-d3fc-49dd-8f12-e910cd8947d8
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.two_columns_v3
+id: paragraph.two_columns_v3.status
+field_name: status
+entity_type: paragraph
+bundle: two_columns_v3
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

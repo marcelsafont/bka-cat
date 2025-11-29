@@ -1,0 +1,10 @@
+uuid: 53f0416a-ac17-4791-a1b8-d30864428d7e
+langcode: ca
+status: true
+dependencies: {  }
+id: titol_text_imatge_fons
+label: 'Titol + text + imatge fons'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

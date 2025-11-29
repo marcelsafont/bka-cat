@@ -1,0 +1,10 @@
+uuid: fefe4bf0-7d99-48cf-bb3a-feba71ca6342
+langcode: en
+status: true
+dependencies: {  }
+id: icona_text
+label: 'Icona + text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

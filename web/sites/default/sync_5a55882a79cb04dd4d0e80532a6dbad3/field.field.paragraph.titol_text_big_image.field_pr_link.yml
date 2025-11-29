@@ -1,0 +1,23 @@
+uuid: 13eb45d3-b4d0-4c57-98b4-f56ae74de25a
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_link
+    - paragraphs.paragraphs_type.titol_text_big_image
+  module:
+    - link
+id: paragraph.titol_text_big_image.field_pr_link
+field_name: field_pr_link
+entity_type: paragraph
+bundle: titol_text_big_image
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

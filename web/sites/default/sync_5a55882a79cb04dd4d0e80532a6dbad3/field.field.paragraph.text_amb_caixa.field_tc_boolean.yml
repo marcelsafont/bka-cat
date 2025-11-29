@@ -1,0 +1,23 @@
+uuid: 8e28b504-0d8d-4293-804e-76861e91f5ce
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tc_boolean
+    - paragraphs.paragraphs_type.text_amb_caixa
+id: paragraph.text_amb_caixa.field_tc_boolean
+field_name: field_tc_boolean
+entity_type: paragraph
+bundle: text_amb_caixa
+label: 'Llistat dues columnes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

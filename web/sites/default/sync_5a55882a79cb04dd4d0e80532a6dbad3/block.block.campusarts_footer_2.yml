@@ -1,0 +1,25 @@
+uuid: 993d9d81-a0f5-45d2-9b13-5470a12d9855
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - campusarts
+id: campusarts_footer_2
+theme: campusarts
+region: menu_legal
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

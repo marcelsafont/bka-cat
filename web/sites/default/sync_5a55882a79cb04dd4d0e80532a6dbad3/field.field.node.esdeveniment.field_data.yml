@@ -1,0 +1,21 @@
+uuid: 392922d4-dd18-421d-b46c-5651171f0e52
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_data
+    - node.type.esdeveniment
+  module:
+    - datetime
+id: node.esdeveniment.field_data
+field_name: field_data
+entity_type: node
+bundle: esdeveniment
+label: Data
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

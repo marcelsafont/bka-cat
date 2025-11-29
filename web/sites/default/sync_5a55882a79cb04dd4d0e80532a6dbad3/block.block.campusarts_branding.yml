@@ -1,0 +1,25 @@
+uuid: 7fa5be15-86d6-428e-8fa4-bf53d50c65e0
+langcode: ca
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - campusarts
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: campusarts_branding
+theme: campusarts
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del lloc'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

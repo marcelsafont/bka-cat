@@ -1,0 +1,21 @@
+uuid: 44433d2a-31d1-4d37-a0e5-584f1a46ecbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imatge_esquerra
+    - paragraphs.paragraphs_type.two_columns_v3
+id: paragraph.two_columns_v3.field_imatge_esquerra
+field_name: field_imatge_esquerra
+entity_type: paragraph
+bundle: two_columns_v3
+label: 'Imatge esquerra'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

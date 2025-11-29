@@ -1,0 +1,10 @@
+uuid: 3516a2d6-5094-41bf-8477-0d2a5ce96d76
+langcode: ca
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: 'Navegació principal'
+description: 'Enllaços a les seccions del lloc'
+locked: true

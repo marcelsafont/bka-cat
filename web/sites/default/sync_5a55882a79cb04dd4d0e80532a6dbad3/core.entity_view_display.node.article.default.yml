@@ -1,0 +1,51 @@
+uuid: 9c983977-4ab2-46c4-830f-ef6de51ccfe6
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.node.article.field_pr_contingut
+    - field.field.node.article.field_tc_imatge
+    - field.field.node.article.field_tc_text_llarg
+    - node.type.article
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+_core:
+  default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  field_pr_contingut:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_tc_imatge:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_tc_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

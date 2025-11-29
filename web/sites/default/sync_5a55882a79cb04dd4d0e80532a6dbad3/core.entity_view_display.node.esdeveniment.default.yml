@@ -1,0 +1,40 @@
+uuid: a5a89c93-9c8d-48d8-9352-8b7b45a1b376
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.node.esdeveniment.body
+    - field.field.node.esdeveniment.field_data
+    - node.type.esdeveniment
+  module:
+    - datetime
+    - text
+    - user
+id: node.esdeveniment.default
+targetEntityType: node
+bundle: esdeveniment
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_data:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

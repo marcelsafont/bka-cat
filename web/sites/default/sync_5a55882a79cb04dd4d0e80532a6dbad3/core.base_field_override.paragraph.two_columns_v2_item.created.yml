@@ -1,0 +1,18 @@
+uuid: 14304d15-cc59-4ada-bcda-0cbd6f20a433
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.two_columns_v2_item
+id: paragraph.two_columns_v2_item.created
+field_name: created
+entity_type: paragraph
+bundle: two_columns_v2_item
+label: 'Elaborat el'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

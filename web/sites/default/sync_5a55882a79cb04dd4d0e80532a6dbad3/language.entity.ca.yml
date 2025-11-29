@@ -1,0 +1,9 @@
+uuid: 39f96f22-b068-49da-819c-a3fa6db5c901
+langcode: ca
+status: true
+dependencies: {  }
+id: ca
+label: CA
+direction: ltr
+weight: -10
+locked: false

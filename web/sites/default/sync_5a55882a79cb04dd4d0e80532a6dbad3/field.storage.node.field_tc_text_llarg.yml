@@ -1,0 +1,19 @@
+uuid: dc0d3d52-d1fd-4949-a8e5-a871ded192ab
+langcode: ca
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_tc_text_llarg
+field_name: field_tc_text_llarg
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

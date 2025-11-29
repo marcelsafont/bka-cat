@@ -1,0 +1,22 @@
+uuid: 8bd3196c-9599-47ff-b1e9-1d0ca235bf62
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.imatge
+id: paragraph.imatge.status
+field_name: status
+entity_type: paragraph
+bundle: imatge
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

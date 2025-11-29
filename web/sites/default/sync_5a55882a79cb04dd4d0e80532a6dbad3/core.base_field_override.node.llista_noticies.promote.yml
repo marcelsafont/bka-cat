@@ -1,0 +1,22 @@
+uuid: 1f546051-dafc-431c-a471-f017916d9136
+langcode: ca
+status: true
+dependencies:
+  config:
+    - node.type.llista_noticies
+id: node.llista_noticies.promote
+field_name: promote
+entity_type: node
+bundle: llista_noticies
+label: 'Promogut a la portada'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

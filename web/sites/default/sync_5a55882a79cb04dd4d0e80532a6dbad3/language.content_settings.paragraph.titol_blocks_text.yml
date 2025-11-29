@@ -1,0 +1,18 @@
+uuid: 26647e4e-9a90-4501-ac06-e70a4e8ae5c0
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.titol_blocks_text
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.titol_blocks_text
+target_entity_type_id: paragraph
+target_bundle: titol_blocks_text
+default_langcode: site_default
+language_alterable: false

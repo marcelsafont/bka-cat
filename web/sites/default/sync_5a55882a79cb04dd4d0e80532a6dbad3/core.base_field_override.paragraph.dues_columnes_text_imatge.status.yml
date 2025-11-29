@@ -1,0 +1,22 @@
+uuid: d9bc984d-cdba-47da-aa54-22e2121ec9ab
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.dues_columnes_text_imatge
+id: paragraph.dues_columnes_text_imatge.status
+field_name: status
+entity_type: paragraph
+bundle: dues_columnes_text_imatge
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

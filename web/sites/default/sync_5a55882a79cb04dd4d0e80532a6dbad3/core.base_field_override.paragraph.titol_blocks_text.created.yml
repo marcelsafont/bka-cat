@@ -1,0 +1,18 @@
+uuid: 8da6dbe1-b097-4481-9490-26fe4899e8a7
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.titol_blocks_text
+id: paragraph.titol_blocks_text.created
+field_name: created
+entity_type: paragraph
+bundle: titol_blocks_text
+label: 'Elaborat el'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

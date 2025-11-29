@@ -1,0 +1,18 @@
+uuid: e885b8ae-8a30-4677-b920-2b15ec380814
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.text_amb_caixa_item
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.text_amb_caixa_item
+target_entity_type_id: paragraph
+target_bundle: text_amb_caixa_item
+default_langcode: site_default
+language_alterable: false

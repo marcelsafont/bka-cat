@@ -1,0 +1,41 @@
+uuid: f099bc0e-6c17-4f1b-b432-eba373c678a1
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.field_pr_contingut
+    - field.field.node.homepage.field_tc_slider
+    - node.type.homepage
+  module:
+    - entity_reference_revisions
+    - user
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  field_pr_contingut:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_tc_slider:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

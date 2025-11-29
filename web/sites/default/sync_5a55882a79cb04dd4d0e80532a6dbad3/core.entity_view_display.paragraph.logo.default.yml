@@ -1,0 +1,49 @@
+uuid: f11b0a3c-0445-44da-86b7-c2bcf5efbe4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo.field_pr_imatge_simple
+    - field.field.paragraph.logo.field_url
+    - paragraphs.paragraphs_type.logo
+  module:
+    - field_formatter
+    - link
+id: paragraph.logo.default
+targetEntityType: paragraph
+bundle: logo
+mode: default
+content:
+  field_pr_imatge_simple:
+    type: field_formatter_with_inline_settings
+    label: above
+    settings:
+      field_name: field_media_image
+      type: image
+      settings:
+        image_link: ''
+        image_style: ''
+        image_loading:
+          attribute: lazy
+        svg_attributes:
+          width: null
+          height: null
+        svg_render_as_image: true
+      label: hidden
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_url:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

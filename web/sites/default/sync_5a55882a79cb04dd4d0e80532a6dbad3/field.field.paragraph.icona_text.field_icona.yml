@@ -1,0 +1,29 @@
+uuid: 52a5b893-2e9f-47d7-98fe-d07f0b05f776
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icona
+    - media.type.image
+    - paragraphs.paragraphs_type.icona_text
+id: paragraph.icona_text.field_icona
+field_name: field_icona
+entity_type: paragraph
+bundle: icona_text
+label: Icona
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

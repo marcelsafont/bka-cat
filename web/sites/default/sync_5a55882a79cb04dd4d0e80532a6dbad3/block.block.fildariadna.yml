@@ -1,0 +1,25 @@
+uuid: 00119857-9216-43e1-904d-361147d20141
+langcode: ca
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - campusarts
+id: fildariadna
+theme: campusarts
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: "Fil d'ariadna"
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '<front>'

@@ -1,0 +1,24 @@
+uuid: d62236f7-1960-4904-80cf-85038be7b66a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_text_llarg
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.icona_text
+  module:
+    - text
+id: paragraph.icona_text.field_pr_text_llarg
+field_name: field_pr_text_llarg
+entity_type: paragraph
+bundle: icona_text
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

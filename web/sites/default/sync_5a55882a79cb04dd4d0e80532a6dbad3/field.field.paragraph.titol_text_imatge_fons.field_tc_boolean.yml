@@ -1,0 +1,23 @@
+uuid: ebdc9746-3ac9-4095-90f4-5fdaa8f1dc59
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tc_boolean
+    - paragraphs.paragraphs_type.titol_text_imatge_fons
+id: paragraph.titol_text_imatge_fons.field_tc_boolean
+field_name: field_tc_boolean
+entity_type: paragraph
+bundle: titol_text_imatge_fons
+label: 'Color de fons'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

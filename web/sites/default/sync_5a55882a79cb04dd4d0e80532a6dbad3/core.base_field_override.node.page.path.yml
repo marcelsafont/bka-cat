@@ -1,0 +1,20 @@
+uuid: 45357b59-5ef3-476e-a5f1-ccab394c8a09
+langcode: ca
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - path
+id: node.page.path
+field_name: path
+entity_type: node
+bundle: page
+label: 'Àlies URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

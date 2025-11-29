@@ -1,0 +1,97 @@
+uuid: d9e7fbd8-4367-4590-b96a-c7ef11dea77b
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pr_contingut
+    - node.type.homepage
+    - paragraphs.paragraphs_type.calendari
+    - paragraphs.paragraphs_type.grid_icones_text
+    - paragraphs.paragraphs_type.logos
+    - paragraphs.paragraphs_type.titol_text_big_image
+    - paragraphs.paragraphs_type.two_columns_v1
+    - paragraphs.paragraphs_type.two_columns_v2
+    - paragraphs.paragraphs_type.two_columns_v3
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_pr_contingut
+field_name: field_pr_contingut
+entity_type: node
+bundle: homepage
+label: Contingut
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      two_columns_v1: two_columns_v1
+      titol_text_big_image: titol_text_big_image
+      two_columns_v3: two_columns_v3
+      two_columns_v2: two_columns_v2
+      calendari: calendari
+      grid_icones_text: grid_icones_text
+      logos: logos
+    negate: 0
+    target_bundles_drag_drop:
+      calendari:
+        weight: 16
+        enabled: true
+      dues_columnes_text_imatge:
+        weight: 17
+        enabled: false
+      grid_icones_text:
+        weight: 21
+        enabled: true
+      icona_text:
+        weight: 18
+        enabled: false
+      imatge:
+        weight: 18
+        enabled: false
+      logo:
+        weight: 20
+        enabled: false
+      logos:
+        weight: 26
+        enabled: true
+      slider:
+        weight: 2
+        enabled: false
+      text:
+        weight: 20
+        enabled: false
+      text_amb_caixa:
+        weight: 21
+        enabled: false
+      text_amb_caixa_item:
+        weight: 22
+        enabled: false
+      text_item:
+        weight: 23
+        enabled: false
+      titol_blocks_text:
+        weight: 24
+        enabled: false
+      titol_text_big_image:
+        weight: 6
+        enabled: true
+      titol_text_imatge_fons:
+        weight: 26
+        enabled: false
+      two_columns_v1:
+        weight: 3
+        enabled: true
+      two_columns_v2:
+        weight: 8
+        enabled: true
+      two_columns_v2_item:
+        weight: 5
+        enabled: false
+      two_columns_v3:
+        weight: 7
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,9 @@
+uuid: 0b5adb46-be3d-46b9-b9f6-afb6e203da50
+langcode: ca
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dXrX0-J-kKv0EAFBOwj3iknBYWbh30k_54lWApW4YUQ
+formId: contact_message_feedback_form
+captchaType: image_captcha/Image
+label: contact_message_feedback_form

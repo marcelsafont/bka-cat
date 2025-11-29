@@ -1,0 +1,10 @@
+uuid: 393aec5c-8cfe-4c3b-83ef-43a8fb9274c6
+langcode: ca
+status: true
+dependencies: {  }
+id: two_columns_v1
+label: 'Dues columnes (multiples imatges)'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

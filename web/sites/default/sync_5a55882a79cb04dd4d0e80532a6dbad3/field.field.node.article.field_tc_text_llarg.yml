@@ -1,0 +1,22 @@
+uuid: f4add905-792d-483c-ad73-5a83afd20e70
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tc_text_llarg
+    - node.type.article
+  module:
+    - text
+id: node.article.field_tc_text_llarg
+field_name: field_tc_text_llarg
+entity_type: node
+bundle: article
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

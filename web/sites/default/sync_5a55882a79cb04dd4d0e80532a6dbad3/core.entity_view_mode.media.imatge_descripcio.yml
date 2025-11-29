@@ -1,0 +1,11 @@
+uuid: f8d30f58-ea4f-42ea-8fd1-70046e27421f
+langcode: ca
+status: true
+dependencies:
+  module:
+    - media
+id: media.imatge_descripcio
+label: 'Imatge + descripcio'
+description: ''
+targetEntityType: media
+cache: true

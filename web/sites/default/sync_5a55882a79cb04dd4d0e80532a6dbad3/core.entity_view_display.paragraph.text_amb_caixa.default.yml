@@ -1,0 +1,42 @@
+uuid: 4613c88e-afb1-432d-8660-072cf88dcb13
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_amb_caixa.field_pr_text_llarg
+    - field.field.paragraph.text_amb_caixa.field_pr_text_simple
+    - field.field.paragraph.text_amb_caixa.field_tc_boolean
+    - paragraphs.paragraphs_type.text_amb_caixa
+  module:
+    - text
+id: paragraph.text_amb_caixa.default
+targetEntityType: paragraph
+bundle: text_amb_caixa
+mode: default
+content:
+  field_pr_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_pr_text_simple:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_tc_boolean:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

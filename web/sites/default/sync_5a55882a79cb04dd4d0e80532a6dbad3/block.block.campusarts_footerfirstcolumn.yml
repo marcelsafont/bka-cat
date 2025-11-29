@@ -1,0 +1,25 @@
+uuid: 2fe3f04a-3658-4d8c-8ce0-cc44951536a2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:25db2c2c-d28a-4844-a69b-b8b5376ca6f9'
+  module:
+    - block_content
+  theme:
+    - campusarts
+id: campusarts_footerfirstcolumn
+theme: campusarts
+region: footer_first_column
+weight: 0
+provider: null
+plugin: 'block_content:25db2c2c-d28a-4844-a69b-b8b5376ca6f9'
+settings:
+  id: 'block_content:25db2c2c-d28a-4844-a69b-b8b5376ca6f9'
+  label: 'Footer first column'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

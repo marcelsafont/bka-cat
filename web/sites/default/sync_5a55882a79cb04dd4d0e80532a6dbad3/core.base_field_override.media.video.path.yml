@@ -1,0 +1,20 @@
+uuid: 5241d335-1d6b-429e-b512-1a0bd7a5f1d0
+langcode: ca
+status: true
+dependencies:
+  config:
+    - media.type.video
+  module:
+    - path
+id: media.video.path
+field_name: path
+entity_type: media
+bundle: video
+label: 'Àlies URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

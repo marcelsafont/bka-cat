@@ -1,0 +1,23 @@
+uuid: 72e23af9-c25f-4d60-ad84-3967801f979f
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tc_boolean
+    - paragraphs.paragraphs_type.dues_columnes_text_imatge
+id: paragraph.dues_columnes_text_imatge.field_tc_boolean
+field_name: field_tc_boolean
+entity_type: paragraph
+bundle: dues_columnes_text_imatge
+label: 'Color de fons'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

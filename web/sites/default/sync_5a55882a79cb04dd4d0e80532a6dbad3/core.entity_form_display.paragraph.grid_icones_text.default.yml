@@ -1,0 +1,38 @@
+uuid: 592f2c87-9f50-44da-9916-c0819656622b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.grid_icones_text.field_items
+    - field.field.paragraph.grid_icones_text.field_pr_text_simple
+    - paragraphs.paragraphs_type.grid_icones_text
+  module:
+    - paragraphs_asymmetric_translation_widgets
+id: paragraph.grid_icones_text.default
+targetEntityType: paragraph
+bundle: grid_icones_text
+mode: default
+content:
+  field_items:
+    type: paragraphs_classic_asymmetric
+    weight: 1
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: icona_text
+    third_party_settings: {  }
+  field_pr_text_simple:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

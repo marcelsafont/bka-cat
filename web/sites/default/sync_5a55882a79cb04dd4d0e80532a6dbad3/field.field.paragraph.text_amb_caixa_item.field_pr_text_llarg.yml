@@ -1,0 +1,22 @@
+uuid: a299f754-a92d-4830-b7ad-b35e75921361
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_text_llarg
+    - paragraphs.paragraphs_type.text_amb_caixa_item
+  module:
+    - text
+id: paragraph.text_amb_caixa_item.field_pr_text_llarg
+field_name: field_pr_text_llarg
+entity_type: paragraph
+bundle: text_amb_caixa_item
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

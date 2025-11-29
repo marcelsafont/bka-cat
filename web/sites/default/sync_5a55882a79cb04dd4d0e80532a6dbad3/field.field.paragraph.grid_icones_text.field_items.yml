@@ -1,0 +1,79 @@
+uuid: 2c3b8e84-db50-4938-8eff-fe38f6cdc206
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_items
+    - paragraphs.paragraphs_type.grid_icones_text
+    - paragraphs.paragraphs_type.icona_text
+  module:
+    - entity_reference_revisions
+id: paragraph.grid_icones_text.field_items
+field_name: field_items
+entity_type: paragraph
+bundle: grid_icones_text
+label: Items
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      icona_text: icona_text
+    negate: 0
+    target_bundles_drag_drop:
+      calendari:
+        weight: 19
+        enabled: false
+      dues_columnes_text_imatge:
+        weight: 20
+        enabled: false
+      grid_icones_text:
+        weight: 21
+        enabled: false
+      icona_text:
+        weight: 18
+        enabled: true
+      imatge:
+        weight: 22
+        enabled: false
+      slider:
+        weight: 23
+        enabled: false
+      text:
+        weight: 24
+        enabled: false
+      text_amb_caixa:
+        weight: 25
+        enabled: false
+      text_amb_caixa_item:
+        weight: 26
+        enabled: false
+      text_item:
+        weight: 27
+        enabled: false
+      titol_blocks_text:
+        weight: 28
+        enabled: false
+      titol_text_big_image:
+        weight: 29
+        enabled: false
+      titol_text_imatge_fons:
+        weight: 30
+        enabled: false
+      two_columns_v1:
+        weight: 31
+        enabled: false
+      two_columns_v2:
+        weight: 32
+        enabled: false
+      two_columns_v2_item:
+        weight: 33
+        enabled: false
+      two_columns_v3:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

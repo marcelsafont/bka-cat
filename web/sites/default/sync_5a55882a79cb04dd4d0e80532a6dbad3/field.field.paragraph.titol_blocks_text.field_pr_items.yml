@@ -1,0 +1,66 @@
+uuid: 0860e33f-1e59-45ba-8c66-f17f929424ec
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_items
+    - paragraphs.paragraphs_type.text_amb_caixa_item
+    - paragraphs.paragraphs_type.text_item
+    - paragraphs.paragraphs_type.titol_blocks_text
+  module:
+    - entity_reference_revisions
+id: paragraph.titol_blocks_text.field_pr_items
+field_name: field_pr_items
+entity_type: paragraph
+bundle: titol_blocks_text
+label: Items
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      text_item: text_item
+      text_amb_caixa_item: text_amb_caixa_item
+    negate: 0
+    target_bundles_drag_drop:
+      dues_columnes_text_imatge:
+        weight: 11
+        enabled: false
+      slider:
+        weight: 12
+        enabled: false
+      text:
+        weight: 13
+        enabled: false
+      text_amb_caixa:
+        weight: 14
+        enabled: false
+      text_amb_caixa_item:
+        weight: 13
+        enabled: true
+      text_item:
+        weight: 12
+        enabled: true
+      titol_blocks_text:
+        weight: 15
+        enabled: false
+      titol_text_big_image:
+        weight: 16
+        enabled: false
+      two_columns_v1:
+        weight: 17
+        enabled: false
+      two_columns_v2:
+        weight: 18
+        enabled: false
+      two_columns_v2_item:
+        weight: 19
+        enabled: false
+      two_columns_v3:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

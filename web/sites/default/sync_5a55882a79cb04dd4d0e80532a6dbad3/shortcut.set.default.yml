@@ -1,0 +1,8 @@
+uuid: deed2e13-b3fc-4aa6-abbb-a4e78ff9026c
+langcode: ca
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
+id: default
+label: Default

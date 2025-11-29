@@ -1,0 +1,18 @@
+uuid: b4d64b2b-0391-421f-8e75-321010eb26c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_imatge_esquerra
+field_name: field_imatge_esquerra
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

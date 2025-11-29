@@ -1,0 +1,10 @@
+uuid: 3e2c6872-8569-4798-9569-5078e5d4b0ce
+langcode: ca
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7klS5IWXrwzVaPpYZFAs6wcx8U2FF1X73OfrtTsvuvE
+id: fallback
+label: 'Format de data alternatiu'
+locked: true
+pattern: 'D, m/d/Y - H:i'

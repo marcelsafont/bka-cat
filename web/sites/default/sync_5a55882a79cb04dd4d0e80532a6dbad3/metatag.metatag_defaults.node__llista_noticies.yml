@@ -1,0 +1,9 @@
+uuid: 73758b34-9d91-44bb-8775-e054de19e4a5
+langcode: ca
+status: true
+dependencies: {  }
+id: node__llista_noticies
+label: 'Contingut: Llista noticies'
+tags:
+  description: '[node:field_tc_text_llarg]'
+  title: '[node:title] | [site:name]'

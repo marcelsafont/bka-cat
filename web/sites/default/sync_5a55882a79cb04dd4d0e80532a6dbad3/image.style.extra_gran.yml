@@ -1,0 +1,15 @@
+uuid: e5a3942d-d1f2-4660-9146-d48c7ea1a5b0
+langcode: ca
+status: true
+dependencies: {  }
+name: extra_gran
+label: 'Extra gran'
+effects:
+  66bec84f-cca5-4c75-9f22-2621408f8bd8:
+    uuid: 66bec84f-cca5-4c75-9f22-2621408f8bd8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 900
+      height: 900
+      anchor: center-center

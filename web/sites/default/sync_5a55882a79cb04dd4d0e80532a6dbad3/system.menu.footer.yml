@@ -1,0 +1,10 @@
+uuid: 1ae8af55-6ca9-49f3-a3b0-d4de3e209c7e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: Peu
+description: 'Enllaços a la informació del lloc'
+locked: true

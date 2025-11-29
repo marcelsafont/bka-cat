@@ -1,0 +1,10 @@
+uuid: 21493023-e3e1-460a-a32d-82aab9d7da4e
+langcode: ca
+status: true
+dependencies: {  }
+id: text_item
+label: 'Text #item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

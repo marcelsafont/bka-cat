@@ -1,0 +1,32 @@
+uuid: 5005e930-50d8-4458-9e4b-7846f91c1885
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider.field_pr_imatge_simple
+    - field.field.paragraph.slider.field_pr_text_llarg
+    - paragraphs.paragraphs_type.slider
+  module:
+    - text
+id: paragraph.slider.default
+targetEntityType: paragraph
+bundle: slider
+mode: default
+content:
+  field_pr_imatge_simple:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_pr_text_llarg:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

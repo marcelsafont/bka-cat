@@ -1,0 +1,44 @@
+uuid: b4352a56-c68b-429f-a029-5c7cc154391e
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.titol_blocks_text.field_pr_items
+    - field.field.paragraph.titol_blocks_text.field_pr_text_simple
+    - field.field.paragraph.titol_blocks_text.field_tc_boolean
+    - paragraphs.paragraphs_type.titol_blocks_text
+  module:
+    - entity_reference_revisions
+id: paragraph.titol_blocks_text.default
+targetEntityType: paragraph
+bundle: titol_blocks_text
+mode: default
+content:
+  field_pr_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_pr_text_simple:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_tc_boolean:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

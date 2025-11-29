@@ -1,0 +1,9 @@
+uuid: ac3626b1-b966-41ec-b267-a5fdf50369cd
+langcode: ca
+status: true
+dependencies: {  }
+id: node__page
+label: 'Contingut: Pàgina bàsica'
+tags:
+  description: '[node:field_tc_text_llarg]'
+  title: '[node:title] | [site:name]'

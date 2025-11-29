@@ -1,0 +1,18 @@
+uuid: 8724c21a-001a-43f4-a1cc-1f9ca569dcc2
+langcode: ca
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.changed
+field_name: changed
+entity_type: media
+bundle: document
+label: Canviat
+description: "L'hora en què es va editar per darrer cop l'element mèdia."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

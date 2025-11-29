@@ -1,0 +1,10 @@
+uuid: b2161d37-2446-494f-82c4-f411af0502d8
+langcode: ca
+status: true
+dependencies: {  }
+id: dues_columnes_text_imatge
+label: 'Dues columnes: text + imatge'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: 11e344c5-f331-42e5-9608-fa76f68d25ec
+langcode: ca
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_pr_contingut
+field_name: field_pr_contingut
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

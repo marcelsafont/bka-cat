@@ -1,0 +1,22 @@
+uuid: 4f520d80-ecc3-494c-95b1-42ff2ade622f
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.titol_blocks_text
+id: paragraph.titol_blocks_text.status
+field_name: status
+entity_type: paragraph
+bundle: titol_blocks_text
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

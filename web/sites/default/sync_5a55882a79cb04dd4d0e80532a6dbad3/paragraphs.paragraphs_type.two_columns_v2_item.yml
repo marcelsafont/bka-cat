@@ -1,0 +1,10 @@
+uuid: b620fec4-5202-4e27-bede-fa816edecc1a
+langcode: ca
+status: true
+dependencies: {  }
+id: two_columns_v2_item
+label: 'Objectius #item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

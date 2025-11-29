@@ -1,0 +1,18 @@
+uuid: 84be13c6-6526-47b9-9b50-ae8633f282ad
+langcode: ca
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.mail
+field_name: mail
+entity_type: comment
+bundle: comment
+label: 'Correu electrònic'
+description: "L'adreça de correu electrònic de l'autor del comentari."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

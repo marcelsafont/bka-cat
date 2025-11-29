@@ -1,0 +1,21 @@
+uuid: c55a6e69-458a-4c67-8f55-186c93a3ae61
+langcode: ca
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_tc_slider
+field_name: field_tc_slider
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

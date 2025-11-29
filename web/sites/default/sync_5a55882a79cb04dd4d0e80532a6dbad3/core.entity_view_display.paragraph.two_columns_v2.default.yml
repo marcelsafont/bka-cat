@@ -1,0 +1,56 @@
+uuid: 7aca123a-909b-463f-9fe1-c6c617788124
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.two_columns_v2.field_pr_items
+    - field.field.paragraph.two_columns_v2.field_pr_link
+    - field.field.paragraph.two_columns_v2.field_pr_text_llarg
+    - field.field.paragraph.two_columns_v2.field_pr_text_simple
+    - paragraphs.paragraphs_type.two_columns_v2
+  module:
+    - entity_reference_revisions
+    - link
+    - text
+id: paragraph.two_columns_v2.default
+targetEntityType: paragraph
+bundle: two_columns_v2
+mode: default
+content:
+  field_pr_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_pr_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_pr_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_pr_text_simple:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

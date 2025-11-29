@@ -1,0 +1,23 @@
+uuid: 8fe0d168-0dc1-453e-908c-ee5ad189faec
+langcode: ca
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+id: noticies
+label: Noticies
+type: 'canonical_entities:node'
+pattern: '/noticies/[node:title]'
+selection_criteria:
+  7a7bcd1d-7ce9-44ee-92a9-5ed7689a3b19:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 7a7bcd1d-7ce9-44ee-92a9-5ed7689a3b19
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+selection_logic: and
+weight: -5
+relationships: {  }

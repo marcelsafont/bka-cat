@@ -1,0 +1,10 @@
+uuid: 74d50e3b-8a48-460c-b86b-6ff7e9a19678
+langcode: ca
+status: true
+dependencies: {  }
+id: text_amb_caixa_item
+label: 'Text amb caixa #item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

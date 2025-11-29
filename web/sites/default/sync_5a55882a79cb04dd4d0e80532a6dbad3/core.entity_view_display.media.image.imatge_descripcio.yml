@@ -1,0 +1,44 @@
+uuid: c00cf342-fc1f-467d-b4e5-d351e2333770
+langcode: ca
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.imatge_descripcio
+    - field.field.media.image.field_md_descripcio
+    - field.field.media.image.field_media_image
+    - image.style.image_fons
+    - media.type.image
+  module:
+    - image
+_core:
+  default_config_hash: B1a2aBHmUulUZN6HrxITEH1tSResuVjXMBEv1lUBtOo
+id: media.image.imatge_descripcio
+targetEntityType: media
+bundle: image
+mode: imatge_descripcio
+content:
+  field_md_descripcio:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_media_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: image_fons
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

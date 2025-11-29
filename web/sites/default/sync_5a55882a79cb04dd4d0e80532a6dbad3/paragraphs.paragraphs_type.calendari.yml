@@ -1,0 +1,10 @@
+uuid: 59b54fef-8b6c-4829-8f14-258b74fcf10d
+langcode: ca
+status: true
+dependencies: {  }
+id: calendari
+label: Calendari
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

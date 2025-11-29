@@ -1,0 +1,20 @@
+uuid: 01badac3-2ffa-48da-aed7-f5d8a6c65179
+langcode: ca
+status: true
+dependencies:
+  config:
+    - media.type.audio
+  module:
+    - path
+id: media.audio.path
+field_name: path
+entity_type: media
+bundle: audio
+label: 'Àlies URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

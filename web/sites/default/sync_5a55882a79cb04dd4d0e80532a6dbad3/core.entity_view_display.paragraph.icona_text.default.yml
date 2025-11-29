@@ -1,0 +1,46 @@
+uuid: c3763c15-e724-4f9a-a515-76cb78e7425f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icona_text.field_icona
+    - field.field.paragraph.icona_text.field_pr_text_llarg
+    - paragraphs.paragraphs_type.icona_text
+  module:
+    - field_formatter
+    - text
+id: paragraph.icona_text.default
+targetEntityType: paragraph
+bundle: icona_text
+mode: default
+content:
+  field_icona:
+    type: field_formatter_with_inline_settings
+    label: above
+    settings:
+      field_name: field_media_image
+      type: field_link
+      settings:
+        type: image
+        settings:
+          image_link: ''
+          image_style: icona
+          image_loading:
+            attribute: lazy
+          svg_attributes:
+            width: null
+            height: null
+          svg_render_as_image: true
+      label: above
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_pr_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: a8dad347-6212-4be4-8f31-83b911d942e2
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_item.field_pr_text_llarg
+    - paragraphs.paragraphs_type.text_item
+  module:
+    - text
+id: paragraph.text_item.default
+targetEntityType: paragraph
+bundle: text_item
+mode: default
+content:
+  field_pr_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

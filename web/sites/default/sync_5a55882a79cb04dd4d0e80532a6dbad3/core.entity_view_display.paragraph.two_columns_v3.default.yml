@@ -1,0 +1,72 @@
+uuid: bca532b5-e3f3-41ce-a5b5-330173ca224a
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.two_columns_v3.field_imatge_esquerra
+    - field.field.paragraph.two_columns_v3.field_pr_imatge_simple
+    - field.field.paragraph.two_columns_v3.field_pr_link
+    - field.field.paragraph.two_columns_v3.field_pr_text_llarg
+    - field.field.paragraph.two_columns_v3.field_pr_text_simple
+    - paragraphs.paragraphs_type.two_columns_v3
+  module:
+    - field_formatter
+    - link
+    - text
+id: paragraph.two_columns_v3.default
+targetEntityType: paragraph
+bundle: two_columns_v3
+mode: default
+content:
+  field_imatge_esquerra:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_pr_imatge_simple:
+    type: field_formatter_with_inline_settings
+    label: above
+    settings:
+      field_name: field_media_image
+      type: image
+      settings:
+        image_link: ''
+        image_style: extra_gran
+      label: hidden
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_pr_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_pr_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_pr_text_simple:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

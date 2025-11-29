@@ -1,0 +1,66 @@
+uuid: bd852dc0-b2d0-4efb-b18a-6701e3fb0a68
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.titol_text_imatge_fons.field_pr_imatge_simple
+    - field.field.paragraph.titol_text_imatge_fons.field_pr_link
+    - field.field.paragraph.titol_text_imatge_fons.field_pr_text_llarg
+    - field.field.paragraph.titol_text_imatge_fons.field_pr_text_simple
+    - field.field.paragraph.titol_text_imatge_fons.field_tc_boolean
+    - paragraphs.paragraphs_type.titol_text_imatge_fons
+  module:
+    - link
+    - text
+id: paragraph.titol_text_imatge_fons.default
+targetEntityType: paragraph
+bundle: titol_text_imatge_fons
+mode: default
+content:
+  field_pr_imatge_simple:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: imatge_descripcio
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_pr_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_pr_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_pr_text_simple:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_tc_boolean:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

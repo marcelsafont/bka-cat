@@ -1,0 +1,88 @@
+uuid: c92ae86d-0973-497d-b8d5-324d12dd1ab4
+langcode: ca
+status: true
+dependencies:
+  module:
+    - views_ui
+_core:
+  default_config_hash: c-HMyZwgeP8H6AITDcq4hznePkd7azpe8xl_WTnx2O0
+id: views-ui
+label: "Pàgina d'edició de la vista"
+module: views_ui
+routes:
+  -
+    route_name: entity.view.edit_form
+  -
+    route_name: entity.view.edit_display_form
+tips:
+  views-main:
+    id: views-main
+    plugin: text
+    label: 'Gestiona els paràmetres de la vista'
+    weight: 1
+    body: 'Visualitzeu o editeu la configuració.'
+  views-ui-displays:
+    id: views-ui-displays
+    plugin: text
+    label: 'Presentacions en aquesta vista'
+    weight: 2
+    selector: '#views-display-top'
+    body: 'Una presentació és la forma de mostrar els resultats, per exemple, com una pàgina o un bloc. Una vista pot contenir múltiples presentacions que es mostren aquí.  La presentació activa es mostra destacada.'
+  views-ui-view-admin:
+    id: views-ui-view-admin
+    plugin: text
+    label: 'Administració de la vista'
+    weight: 3
+    position: left-start
+    selector: '#views-display-extra-actions'
+    body: 'Perform administrative tasks, including adding a description and creating a clone. Click the drop-down button to view the available options.'
+  views-ui-format:
+    id: views-ui-format
+    plugin: text
+    label: 'Format de sortida'
+    weight: 4
+    selector: .views-ui-display-tab-bucket.format
+    body: "Choose how to output results. E.g., choose <em>Content</em> to output each item completely, using your configured display settings. Or choose <em>Fields</em>, which allows you to output only specific fields for each result. Additional formats can be added by installing modules to <em>extend</em> Drupal's base functionality."
+  views-ui-fields:
+    id: views-ui-fields
+    plugin: text
+    label: Camps
+    weight: 5
+    selector: .views-ui-display-tab-bucket.field
+    body: 'Si aquesta vista usa camps, es llisten aquí. Podeu fer clic en un camp per a configurar-lo.'
+  views-ui-filter:
+    id: views-ui-filter
+    plugin: text
+    label: 'Filtra la teva vista'
+    weight: 6
+    selector: .views-ui-display-tab-bucket.filter
+    body: "Afegiu filtres per a limitar els resultats en la sortida. Per exemple, per a mostrar només contingut que estigui <em>publicat</em>, heu d'afegir un filtre per <em>Publicat</em> i seleccionar <em>Sí</em>."
+  views-ui-filter-operations:
+    id: views-ui-filter-operations
+    plugin: text
+    label: 'Filtra les accions'
+    weight: 7
+    selector: '.views-ui-display-tab-bucket.filter .dropbutton-widget'
+    body: 'Afegeix, reordena o elimina filtres.'
+  views-ui-sorts:
+    id: views-ui-sorts
+    plugin: text
+    label: "Criteris d'ordenació"
+    weight: 8
+    selector: .views-ui-display-tab-bucket.sort
+    body: "Controleu l'ordre en què es mostren els resultats. Feu clic a una regla d'ordenació activa per a configurar-la."
+  views-ui-sorts-operations:
+    id: views-ui-sorts-operations
+    plugin: text
+    label: 'Ordena les accions'
+    weight: 9
+    selector: '.views-ui-display-tab-bucket.sort .dropbutton-widget'
+    body: "Afegeix, ordena o elimina regles d'ordenació."
+  views-ui-preview:
+    id: views-ui-preview
+    plugin: text
+    label: Preview
+    weight: 10
+    position: left-start
+    selector: '#preview-submit'
+    body: 'Mostra una previsualització del resultat de la vista.'

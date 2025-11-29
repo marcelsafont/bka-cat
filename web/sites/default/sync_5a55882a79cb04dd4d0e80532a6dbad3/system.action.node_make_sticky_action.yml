@@ -1,0 +1,13 @@
+uuid: bdce900d-2883-40c3-824e-06dfe64884ef
+langcode: ca
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
+id: node_make_sticky_action
+label: 'Fes el contingut estàtic'
+type: node
+plugin: node_make_sticky_action
+configuration: {  }

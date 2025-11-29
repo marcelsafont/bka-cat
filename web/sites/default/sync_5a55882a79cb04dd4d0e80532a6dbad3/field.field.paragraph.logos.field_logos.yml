@@ -1,0 +1,85 @@
+uuid: 2915bf1d-f7e1-4f1c-af47-ecc305668eb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_logos
+    - paragraphs.paragraphs_type.logo
+    - paragraphs.paragraphs_type.logos
+  module:
+    - entity_reference_revisions
+id: paragraph.logos.field_logos
+field_name: field_logos
+entity_type: paragraph
+bundle: logos
+label: Logos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      logo: logo
+    negate: 0
+    target_bundles_drag_drop:
+      calendari:
+        weight: 21
+        enabled: false
+      dues_columnes_text_imatge:
+        weight: 22
+        enabled: false
+      grid_icones_text:
+        weight: 23
+        enabled: false
+      icona_text:
+        weight: 24
+        enabled: false
+      imatge:
+        weight: 25
+        enabled: false
+      logo:
+        weight: 20
+        enabled: true
+      logos:
+        weight: 26
+        enabled: false
+      slider:
+        weight: 27
+        enabled: false
+      text:
+        weight: 28
+        enabled: false
+      text_amb_caixa:
+        weight: 29
+        enabled: false
+      text_amb_caixa_item:
+        weight: 30
+        enabled: false
+      text_item:
+        weight: 31
+        enabled: false
+      titol_blocks_text:
+        weight: 32
+        enabled: false
+      titol_text_big_image:
+        weight: 33
+        enabled: false
+      titol_text_imatge_fons:
+        weight: 34
+        enabled: false
+      two_columns_v1:
+        weight: 35
+        enabled: false
+      two_columns_v2:
+        weight: 36
+        enabled: false
+      two_columns_v2_item:
+        weight: 37
+        enabled: false
+      two_columns_v3:
+        weight: 38
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,18 @@
+uuid: 00240567-12f8-4cd8-aade-01e1d039c08f
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.imatge
+id: paragraph.imatge.created
+field_name: created
+entity_type: paragraph
+bundle: imatge
+label: 'Elaborat el'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

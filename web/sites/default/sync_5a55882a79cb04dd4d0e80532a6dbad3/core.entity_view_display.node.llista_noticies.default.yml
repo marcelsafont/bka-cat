@@ -1,0 +1,25 @@
+uuid: 1b8b3d9c-729c-42c9-b7a6-5dd20344942b
+langcode: ca
+status: true
+dependencies:
+  config:
+    - node.type.llista_noticies
+  module:
+    - user
+id: node.llista_noticies.default
+targetEntityType: node
+bundle: llista_noticies
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  lista_noticies_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  langcode: true

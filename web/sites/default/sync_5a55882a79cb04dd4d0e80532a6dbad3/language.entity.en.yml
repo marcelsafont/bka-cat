@@ -1,0 +1,9 @@
+uuid: f30adb20-1d37-4d64-abb4-ca6b1e9d2a29
+langcode: ca
+status: true
+dependencies: {  }
+id: en
+label: EN
+direction: ltr
+weight: -8
+locked: false

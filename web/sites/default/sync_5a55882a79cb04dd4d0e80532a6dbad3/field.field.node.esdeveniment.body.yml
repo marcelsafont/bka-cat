@@ -1,0 +1,24 @@
+uuid: 19730866-b23e-4ac3-973f-ec74e748f61c
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.esdeveniment
+  module:
+    - text
+id: node.esdeveniment.body
+field_name: body
+entity_type: node
+bundle: esdeveniment
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

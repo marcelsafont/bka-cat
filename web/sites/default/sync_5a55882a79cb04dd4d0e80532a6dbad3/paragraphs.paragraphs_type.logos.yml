@@ -1,0 +1,10 @@
+uuid: d952591c-b807-425c-b9b4-e28091070b4b
+langcode: en
+status: true
+dependencies: {  }
+id: logos
+label: Logos
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

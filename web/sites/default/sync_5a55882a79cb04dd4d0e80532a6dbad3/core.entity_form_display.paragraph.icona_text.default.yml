@@ -1,0 +1,34 @@
+uuid: 0ca50f5b-99bc-46e9-a078-6d658dbe568c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icona_text.field_icona
+    - field.field.paragraph.icona_text.field_pr_text_llarg
+    - paragraphs.paragraphs_type.icona_text
+  module:
+    - media_library
+    - text
+id: paragraph.icona_text.default
+targetEntityType: paragraph
+bundle: icona_text
+mode: default
+content:
+  field_icona:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_pr_text_llarg:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,15 @@
+uuid: b4f79b72-e174-4d3f-86b1-656bdd4b7b0c
+langcode: ca
+status: true
+dependencies: {  }
+name: image_fons
+label: 'Image fons'
+effects:
+  222fddde-ddb9-47d9-8e10-e10119338e31:
+    uuid: 222fddde-ddb9-47d9-8e10-e10119338e31
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 470
+      anchor: center-center

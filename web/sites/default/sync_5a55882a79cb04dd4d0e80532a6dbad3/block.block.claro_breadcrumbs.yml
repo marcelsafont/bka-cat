@@ -1,0 +1,22 @@
+uuid: d942de58-c2d9-4270-ab2b-fc4587f97e6c
+langcode: ca
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - claro
+_core:
+  default_config_hash: NjcxOBrPOiK5-38t56DwFBDVY4yer7YSlbRWXFuHe7A
+id: claro_breadcrumbs
+theme: claro
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: "Fil d'ariadna"
+  label_display: '0'
+  provider: system
+visibility: {  }

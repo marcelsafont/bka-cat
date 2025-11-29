@@ -1,0 +1,22 @@
+uuid: b4dd826b-bea7-429c-a2b3-bf4d540b859d
+langcode: ca
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - campusarts
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: campusarts_help
+theme: campusarts
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  label_display: '0'
+  provider: help
+visibility: {  }

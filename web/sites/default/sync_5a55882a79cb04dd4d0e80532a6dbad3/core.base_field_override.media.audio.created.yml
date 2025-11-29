@@ -1,0 +1,18 @@
+uuid: 15153840-7177-4074-941d-7b0eeeec245e
+langcode: ca
+status: true
+dependencies:
+  config:
+    - media.type.audio
+id: media.audio.created
+field_name: created
+entity_type: media
+bundle: audio
+label: 'Elaborat el'
+description: "L'hora en què es va crear l'element mèdia."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created

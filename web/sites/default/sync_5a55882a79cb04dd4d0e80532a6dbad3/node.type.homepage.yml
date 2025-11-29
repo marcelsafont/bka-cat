@@ -1,0 +1,18 @@
+uuid: 1a43d9a0-f2ae-4134-8952-f0775509c17e
+langcode: ca
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Homepage
+type: homepage
+description: null
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

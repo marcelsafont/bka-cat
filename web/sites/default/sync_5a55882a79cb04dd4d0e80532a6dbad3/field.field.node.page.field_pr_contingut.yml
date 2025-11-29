@@ -1,0 +1,83 @@
+uuid: 66819a3b-a95e-4335-be3d-2c545d2d8e27
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pr_contingut
+    - node.type.page
+    - paragraphs.paragraphs_type.calendari
+    - paragraphs.paragraphs_type.dues_columnes_text_imatge
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.text_amb_caixa
+    - paragraphs.paragraphs_type.titol_blocks_text
+    - paragraphs.paragraphs_type.titol_text_imatge_fons
+  module:
+    - entity_reference_revisions
+id: node.page.field_pr_contingut
+field_name: field_pr_contingut
+entity_type: node
+bundle: page
+label: Contingut
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      text: text
+      text_amb_caixa: text_amb_caixa
+      dues_columnes_text_imatge: dues_columnes_text_imatge
+      titol_blocks_text: titol_blocks_text
+      titol_text_imatge_fons: titol_text_imatge_fons
+      calendari: calendari
+    negate: 0
+    target_bundles_drag_drop:
+      calendari:
+        weight: 16
+        enabled: true
+      dues_columnes_text_imatge:
+        weight: 10
+        enabled: true
+      imatge:
+        weight: 18
+        enabled: false
+      slider:
+        weight: 7
+        enabled: false
+      text:
+        weight: 8
+        enabled: true
+      text_amb_caixa:
+        weight: 9
+        enabled: true
+      text_amb_caixa_item:
+        weight: 17
+        enabled: false
+      text_item:
+        weight: 18
+        enabled: false
+      titol_blocks_text:
+        weight: 11
+        enabled: true
+      titol_text_big_image:
+        weight: 8
+        enabled: false
+      titol_text_imatge_fons:
+        weight: 14
+        enabled: true
+      two_columns_v1:
+        weight: 9
+        enabled: false
+      two_columns_v2:
+        weight: 10
+        enabled: false
+      two_columns_v2_item:
+        weight: 11
+        enabled: false
+      two_columns_v3:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

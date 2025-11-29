@@ -1,0 +1,22 @@
+uuid: fcde0c9d-ae4b-4294-a5e2-dc4da4e34fac
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_text_llarg
+    - paragraphs.paragraphs_type.two_columns_v1
+  module:
+    - text
+id: paragraph.two_columns_v1.field_pr_text_llarg
+field_name: field_pr_text_llarg
+entity_type: paragraph
+bundle: two_columns_v1
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

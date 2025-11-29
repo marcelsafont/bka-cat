@@ -1,0 +1,18 @@
+uuid: acd673be-0910-4ca6-b783-7d52da2c4703
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.slider
+id: paragraph.slider.created
+field_name: created
+entity_type: paragraph
+bundle: slider
+label: 'Elaborat el'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

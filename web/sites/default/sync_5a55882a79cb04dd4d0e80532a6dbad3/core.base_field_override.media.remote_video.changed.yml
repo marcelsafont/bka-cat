@@ -1,0 +1,18 @@
+uuid: b280ccbe-773a-4728-87f0-43e5bcd6b4e2
+langcode: ca
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+id: media.remote_video.changed
+field_name: changed
+entity_type: media
+bundle: remote_video
+label: Canviat
+description: "L'hora en què es va editar per darrer cop l'element mèdia."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

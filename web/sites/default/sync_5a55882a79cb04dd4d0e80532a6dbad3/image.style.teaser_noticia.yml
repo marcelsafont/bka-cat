@@ -1,0 +1,15 @@
+uuid: 50b9f7ee-92a2-4612-a35f-9167431055f4
+langcode: ca
+status: true
+dependencies: {  }
+name: teaser_noticia
+label: 'Teaser noticia'
+effects:
+  35f7e834-5527-4001-a600-aca7c1836828:
+    uuid: 35f7e834-5527-4001-a600-aca7c1836828
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 570
+      height: 380
+      anchor: center-center

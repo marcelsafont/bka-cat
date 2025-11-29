@@ -1,0 +1,18 @@
+uuid: 4a6b6865-693f-436d-8c03-935775b84c6e
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.two_columns_v2_item
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.two_columns_v2_item
+target_entity_type_id: paragraph
+target_bundle: two_columns_v2_item
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,28 @@
+uuid: c8f8b0f8-53da-474c-b345-073983573a26
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_imatge_simple
+    - media.type.image
+    - paragraphs.paragraphs_type.two_columns_v3
+id: paragraph.two_columns_v3.field_pr_imatge_simple
+field_name: field_pr_imatge_simple
+entity_type: paragraph
+bundle: two_columns_v3
+label: Imatge
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: a90a6388-7246-4a39-81bc-75153c912bb0
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.calendari.field_pr_text_simple
+    - paragraphs.paragraphs_type.calendari
+id: paragraph.calendari.default
+targetEntityType: paragraph
+bundle: calendari
+mode: default
+content:
+  field_pr_text_simple:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

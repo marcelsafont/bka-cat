@@ -1,0 +1,10 @@
+uuid: 14996b4a-4219-4e83-935f-20dd0091c2ac
+langcode: ca
+status: true
+dependencies: {  }
+id: titol_text_big_image
+label: 'Titol + text + big image'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

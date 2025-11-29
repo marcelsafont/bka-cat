@@ -1,0 +1,18 @@
+uuid: f8c438da-f742-49ce-8f6a-5c234eea0c6d
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.dues_columnes_text_imatge
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.dues_columnes_text_imatge
+target_entity_type_id: paragraph
+target_bundle: dues_columnes_text_imatge
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,19 @@
+uuid: 8d022391-6bcf-46c9-8807-05a41aafc6fc
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_text_simple
+    - paragraphs.paragraphs_type.titol_blocks_text
+id: paragraph.titol_blocks_text.field_pr_text_simple
+field_name: field_pr_text_simple
+entity_type: paragraph
+bundle: titol_blocks_text
+label: Títol
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

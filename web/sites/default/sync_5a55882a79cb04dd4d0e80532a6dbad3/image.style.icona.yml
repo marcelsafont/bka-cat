@@ -1,0 +1,15 @@
+uuid: 4f874121-4024-4164-af7e-5daf5f7c9bff
+langcode: en
+status: true
+dependencies: {  }
+name: icona
+label: Icona
+effects:
+  550def3a-4ab1-4bb7-ba56-802d195dfef7:
+    uuid: 550def3a-4ab1-4bb7-ba56-802d195dfef7
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 60
+      upscale: false

@@ -1,0 +1,22 @@
+uuid: c73138e6-db1d-4c76-a3de-67057ffedae5
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.calendari
+id: paragraph.calendari.status
+field_name: status
+entity_type: paragraph
+bundle: calendari
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

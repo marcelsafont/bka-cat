@@ -1,0 +1,20 @@
+uuid: 756be43a-eb0b-4a7c-89b8-5451fe6752bf
+langcode: ca
+status: true
+dependencies:
+  config:
+    - media.type.image
+  module:
+    - path
+id: media.image.path
+field_name: path
+entity_type: media
+bundle: image
+label: 'Àlies URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

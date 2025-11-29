@@ -1,0 +1,20 @@
+uuid: 6376a593-da51-41b0-a35e-1086e52feed5
+langcode: ca
+status: true
+dependencies:
+  theme:
+    - campusarts
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: campusarts_local_actions
+theme: campusarts
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: "Accions principals d'administració"
+  label_display: '0'
+  provider: core
+visibility: {  }

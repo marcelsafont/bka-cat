@@ -1,0 +1,10 @@
+uuid: 44719c18-5c24-4c73-8033-03fe5a1a6ce1
+langcode: en
+status: true
+dependencies: {  }
+id: grid_icones_text
+label: 'Grid icones + text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

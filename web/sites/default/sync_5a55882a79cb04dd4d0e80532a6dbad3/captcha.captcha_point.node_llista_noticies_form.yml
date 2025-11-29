@@ -1,0 +1,7 @@
+uuid: 73459e1d-d93d-4a62-9e65-a903f9650360
+langcode: ca
+status: false
+dependencies: {  }
+formId: node_llista_noticies_form
+captchaType: default
+label: node_llista_noticies_form

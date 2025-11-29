@@ -1,0 +1,21 @@
+uuid: 34c6b269-836a-471a-b3f9-91d83a750260
+langcode: ca
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_pr_text_simple
+field_name: field_pr_text_simple
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

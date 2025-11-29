@@ -1,0 +1,28 @@
+uuid: fe6bc770-337c-462b-beec-453591ba8303
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_imatge_simple
+    - media.type.image
+    - paragraphs.paragraphs_type.slider
+id: paragraph.slider.field_pr_imatge_simple
+field_name: field_pr_imatge_simple
+entity_type: paragraph
+bundle: slider
+label: Imatge
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

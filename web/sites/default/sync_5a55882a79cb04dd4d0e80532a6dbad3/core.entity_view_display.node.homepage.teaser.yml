@@ -1,0 +1,25 @@
+uuid: ae5d4a08-c5fe-48dd-9b30-63a8dcd3146b
+langcode: ca
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage.field_pr_contingut
+    - field.field.node.homepage.field_tc_slider
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.teaser
+targetEntityType: node
+bundle: homepage
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_pr_contingut: true
+  field_tc_slider: true
+  langcode: true

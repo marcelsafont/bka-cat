@@ -1,0 +1,13 @@
+uuid: 1a816dc0-0cb5-44c9-bc27-1db2fb995e15
+langcode: ca
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
+id: node_publish_action
+label: 'Publica el contingut'
+type: node
+plugin: 'entity:publish_action:node'
+configuration: {  }

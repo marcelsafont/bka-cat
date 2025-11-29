@@ -1,0 +1,18 @@
+uuid: 5aabbb3a-1cb3-4a53-83e9-8785ab2f4d65
+langcode: ca
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+id: media.remote_video.created
+field_name: created
+entity_type: media
+bundle: remote_video
+label: 'Elaborat el'
+description: "L'hora en què es va crear l'element mèdia."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created

@@ -1,0 +1,11 @@
+uuid: cdb34ca1-1e62-4181-b7af-551c93249f68
+langcode: ca
+status: true
+dependencies:
+  module:
+    - block
+id: block.token
+label: Token
+description: ''
+targetEntityType: block
+cache: true

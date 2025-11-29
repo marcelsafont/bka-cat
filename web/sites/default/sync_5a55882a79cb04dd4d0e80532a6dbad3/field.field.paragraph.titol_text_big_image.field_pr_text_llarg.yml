@@ -1,0 +1,22 @@
+uuid: bc80e20a-b54f-4c7a-acb3-c077f6d280fb
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_text_llarg
+    - paragraphs.paragraphs_type.titol_text_big_image
+  module:
+    - text
+id: paragraph.titol_text_big_image.field_pr_text_llarg
+field_name: field_pr_text_llarg
+entity_type: paragraph
+bundle: titol_text_big_image
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

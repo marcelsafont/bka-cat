@@ -1,0 +1,18 @@
+uuid: 1f2cf2dd-6132-44e5-bd5e-d351d0293381
+langcode: ca
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.title
+field_name: title
+entity_type: node
+bundle: page
+label: Títol
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,28 @@
+uuid: 4fa45445-d1ff-43af-8238-d8ab4a7d3ccd
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_imatge_simple
+    - media.type.image
+    - paragraphs.paragraphs_type.titol_text_imatge_fons
+id: paragraph.titol_text_imatge_fons.field_pr_imatge_simple
+field_name: field_pr_imatge_simple
+entity_type: paragraph
+bundle: titol_text_imatge_fons
+label: Imatge
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

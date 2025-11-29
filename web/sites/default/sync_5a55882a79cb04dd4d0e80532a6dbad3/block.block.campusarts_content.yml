@@ -1,0 +1,22 @@
+uuid: c2002dc7-9d14-4b32-a91a-1b0cb1e3a2b6
+langcode: ca
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - campusarts
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: campusarts_content
+theme: campusarts
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contingut principal de la pàgina'
+  label_display: '0'
+  provider: system
+visibility: {  }

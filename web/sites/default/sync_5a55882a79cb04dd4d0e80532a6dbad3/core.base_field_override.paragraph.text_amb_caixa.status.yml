@@ -1,0 +1,22 @@
+uuid: e2a030d9-2c01-43d9-b63a-c84123859352
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.text_amb_caixa
+id: paragraph.text_amb_caixa.status
+field_name: status
+entity_type: paragraph
+bundle: text_amb_caixa
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

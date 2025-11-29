@@ -1,0 +1,22 @@
+uuid: ee706c75-5603-48b6-89d0-839c0c7f1ed8
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.text_item
+id: paragraph.text_item.status
+field_name: status
+entity_type: paragraph
+bundle: text_item
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Actiu
+  off_label: Inactiu
+field_type: boolean

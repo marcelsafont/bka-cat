@@ -1,0 +1,16 @@
+uuid: b98bb09d-c005-4a1c-8311-7545edc91768
+langcode: ca
+status: true
+dependencies: {  }
+id: node__article
+label: 'Contingut: Article'
+tags:
+  description: '[node:field_tc_text_llarg]'
+  title: '[node:title] | [site:name]'
+  og_image: '[node:field_tc_imatge:entity:field_media_image:entity:url]'
+  og_description: '[node:field_tc_text_llarg]'
+  og_image_secure_url: '[node:field_tc_imatge:entity:field_media_image:entity:url]'
+  og_image_url: '[node:field_tc_imatge:entity:field_media_image:entity:url]'
+  og_title: '[node:title]'
+  og_url: '[node:url]'
+  og_site_name: '[site:name]'

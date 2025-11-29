@@ -1,0 +1,18 @@
+uuid: 028a1325-b4e7-4cf0-a7b4-e10e38e057d4
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.titol_text_big_image
+id: paragraph.titol_text_big_image.created
+field_name: created
+entity_type: paragraph
+bundle: titol_text_big_image
+label: 'Elaborat el'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

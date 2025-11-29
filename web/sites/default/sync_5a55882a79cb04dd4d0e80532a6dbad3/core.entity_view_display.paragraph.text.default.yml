@@ -1,0 +1,33 @@
+uuid: fb34bc64-c874-46a1-8de3-5c8ccd35ce7b
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text.field_pr_text_llarg
+    - field.field.paragraph.text.field_tc_boolean
+    - paragraphs.paragraphs_type.text
+  module:
+    - text
+id: paragraph.text.default
+targetEntityType: paragraph
+bundle: text
+mode: default
+content:
+  field_pr_text_llarg:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_tc_boolean:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

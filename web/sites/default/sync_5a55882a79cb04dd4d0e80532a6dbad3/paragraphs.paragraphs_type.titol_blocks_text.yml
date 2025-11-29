@@ -1,0 +1,10 @@
+uuid: 1001e89c-37d9-4844-9c90-bfb115a2bd2d
+langcode: ca
+status: true
+dependencies: {  }
+id: titol_blocks_text
+label: 'Titol + blocks text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

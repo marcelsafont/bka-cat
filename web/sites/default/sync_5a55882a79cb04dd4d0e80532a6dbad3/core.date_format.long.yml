@@ -1,0 +1,10 @@
+uuid: 9fe26f15-3c3d-47cf-8271-44991e8e1f92
+langcode: ca
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
+id: long
+label: 'Format predeterminat de data llarga'
+locked: false
+pattern: 'l, F j, Y - H:i'

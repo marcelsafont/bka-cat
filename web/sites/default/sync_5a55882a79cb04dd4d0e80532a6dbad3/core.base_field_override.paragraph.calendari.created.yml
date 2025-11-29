@@ -1,0 +1,18 @@
+uuid: 2f0ef056-c321-456c-a8ee-69d64439aeeb
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.calendari
+id: paragraph.calendari.created
+field_name: created
+entity_type: paragraph
+bundle: calendari
+label: 'Elaborat el'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

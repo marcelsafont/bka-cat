@@ -1,0 +1,10 @@
+uuid: 86757636-8bae-4ed0-aee8-23203fff7355
+langcode: ca
+status: true
+dependencies: {  }
+id: imatge
+label: Imatge
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,18 @@
+uuid: 09b3fec7-0d51-4f03-884e-4c1d49d93dde
+langcode: ca
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.titol_text_big_image
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.titol_text_big_image
+target_entity_type_id: paragraph
+target_bundle: titol_text_big_image
+default_langcode: site_default
+language_alterable: false

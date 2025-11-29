@@ -1,0 +1,22 @@
+uuid: d177d27d-1c18-4051-ad03-a1bc62172c20
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pr_text_llarg
+    - paragraphs.paragraphs_type.dues_columnes_text_imatge
+  module:
+    - text
+id: paragraph.dues_columnes_text_imatge.field_pr_text_llarg
+field_name: field_pr_text_llarg
+entity_type: paragraph
+bundle: dues_columnes_text_imatge
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
